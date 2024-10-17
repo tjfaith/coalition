@@ -1,0 +1,97 @@
+#history {
+    background-image: url("../img/peak.png");
+    background-position: center -15vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.page-title {
+    padding: 2% 15% 0 15%;
+}
+
+.page-title p {
+    padding-left: 8%;
+    padding-top: 0%;
+    margin: 0;
+}
+.page-number {
+    font-family: Oswald;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.heading-one {
+    font-weight: bolder;
+    font-size: 8rem;
+    margin: 0;
+    color: #6c7c99;
+    padding: 0;
+    line-height: 1;
+}
+
+.heading-two {
+    padding-top: 10px;
+    color: #404e6c;
+    margin: 0;
+}
+
+.second-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.heading-box {
+    background: #6c7c99;
+    height: 15px;
+    width: 15px;
+    margin-bottom: 8%;
+}
+
+.carousel {
+    padding: 1% 15%;
+    background-color: #404e6cbf;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel .carousel-content {
+    display: flex;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.carousel-nav {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.carousel-nav div {
+    border-radius: 100%;
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+}
+.carousel-nav .active {
+    background-color: #97a0b1;
+}
+
+@media screen and (max-width: 768px) {
+    .page-title p {
+        background-color: #ffffffba;
+        padding: 2%;
+        border-radius: 1.5%;
+        font-size: small;
+    }
+}

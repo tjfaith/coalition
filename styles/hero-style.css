@@ -1,0 +1,22 @@
+#hero {
+    background-image: url("../img/hero.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+#logo-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 73.5vh;
+    padding-right: 11rem;
+}
+
+#logo-text img {
+    max-width: 42%;
+    height: auto;
+}
